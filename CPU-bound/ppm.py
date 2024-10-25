@@ -22,7 +22,7 @@ def main():
 
     end_time = time.time()
 
-    print((end_time - start_time))
+    print((end_time - start_time) * 1000)
 
     job_server.destroy()
 
