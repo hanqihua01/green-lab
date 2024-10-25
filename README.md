@@ -9,9 +9,14 @@
 - We also wrote a script to use `psutil` to measure the memory usage.
 
 ### Conduct Experiments
-Before the experiments, we need to install the required packages:
-- `pip install pp mpi4py numpy psutil`
+Before the experiments, we create a Python virtual environment
+- `python3 -m venv labvenv`
+and source it
+- `source labvenv/bin/activate`
+
+and next, we need to install the required packages:
 - `apt install libopenmpi-dev openmpi-bin`
+- `pip install pp mpi4py numpy psutil`
 
 To measure the energy consumption and other metrics, we used the following commands:
 - `python experiment-runner/ CPU-bound/RunnerConfig.py`
