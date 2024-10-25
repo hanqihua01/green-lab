@@ -11,10 +11,11 @@
 ### Conduct Experiments
 Before the experiments, we create a Python virtual environment
 - `python3 -m venv labvenv`
-and source it
+
+Activate virtual environment
 - `source labvenv/bin/activate`
 
-and next, we need to install the required packages:
+And next, we need to install the required packages:
 - `apt install libopenmpi-dev openmpi-bin`
 - `pip install pp mpi4py numpy psutil`
 
