@@ -9,10 +9,7 @@
 - We also wrote a script to measure the memory usage from system files.
 
 ### Conduct Experiments
-Before the experiments, we create a Python virtual environment
-- `python3 -m venv labvenv`
-
-Activate virtual environment
+Before experiment, we need to activate virtual environment:
 - `source labvenv/bin/activate`
 
 And next, we need to install the required packages:
