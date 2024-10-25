@@ -155,6 +155,7 @@ class RunnerConfig:
         total_energy = 0
         for pid in self.pids:
             df = pd.read_csv(context.run_dir / f"powerjoular.csv-{pid}.csv")
+            df['CPU Power'] = pd.to_numeric(df['CPU Power'], errors='coerce')
             total_energy += round(df['CPU Power'].sum(), 3)
         execution_time = self.target.stdout.readline().decode('ascii').strip()
         cpu_user_time = self.cpumonitor.stdout.readline().decode('ascii').strip()
