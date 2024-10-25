@@ -1,4 +1,4 @@
-# Evaluating the Impact of Python Multithreading Techniques on Energy Efficiency and Performance
+# Evaluating the Impact of Python Multithreading Techniques on Energy Consumption and Performance
 ### Introduction
 - We used a Raspberry Pi 4 Model B Rev 1.4, equipped with 64-bit ARM CPU and 7.6GiB RAM. The operating system is Debian GNU/Linux 11.
 - We conducted the experiments for three different types of applications: CPU-bound, I/O-bound, and Memory-bound.
