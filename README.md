@@ -6,7 +6,7 @@
 - We used the tool `powerjoular` to measure the energy consumption.
 - We used `time` module to measure the execution time.
 - We wrote a script to use `psutil` to measure two different types of CPU time: user and system. Initially, we also used `psutil` to measure the i/o wait time, but we found that the i/o wait time measured by `psutil` is always zero on our platform, so we ignored it.
-- We also wrote a script to use `psutil` to measure the memory usage.
+- We also wrote a script to measure the memory usage from system files.
 
 ### Conduct Experiments
 Before the experiments, we create a Python virtual environment
