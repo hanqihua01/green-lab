@@ -5,7 +5,7 @@
 - We used four different multithreading techniques: `threading`, `multiprocessing`, `pp`, and `mpi4py`.
 - We used the tool `powerjoular` to measure the energy consumption.
 - We used `time` module to measure the execution time.
-- We wrote a script to use `psutil` to measure three different types of CPU time: user, system, and i/o.
+- We wrote a script to use `psutil` to measure two different types of CPU time: user and system. Initially, we also used `psutil` to measure the i/o wait time, but we found that the i/o wait time measured by `psutil` is always zero on our platform, so we ignored it.
 - We also wrote a script to use `psutil` to measure the memory usage.
 
 ### Conduct Experiments
