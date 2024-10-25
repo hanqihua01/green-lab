@@ -1,6 +1,6 @@
 # Evaluating the Impact of Python Multithreading Techniques on Energy Efficiency and Performance
 ### Introduction
-- We used a Raspberry Pi 4 Model B (4GB RAM, Cortex-A72 64-bit 1.8GHz SoC with ARM v8) for our experiments.
+- We used a Raspberry Pi 4 Model B (8GB RAM, Cortex-A72 64-bit 1.8GHz SoC with ARM v8) for our experiments.
 - We conducted the experiments for three different types of applications: CPU-bound, I/O-bound, and Memory-bound.
 - We used four different multithreading techniques: `threading`, `multiprocessing`, `pp`, and `mpi4py`.
 - We used the tool `powerjoular` to measure the energy consumption.
